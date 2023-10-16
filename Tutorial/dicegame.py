@@ -15,3 +15,6 @@ if(playersum>computersum):
 
 elif(playersum<computersum):
     print("Computer wins, Playersum is:", playersum, "Computersum is:",computersum)
+
+elif(playersum==computersum):
+    print("Draw, Playersum is:", playersum, "Computersum is:",computersum)
