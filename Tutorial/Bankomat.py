@@ -19,8 +19,11 @@ while  True:
     elif input1 == "2":
         print("Geben Sie den Betrag ein, den Sie abheben möchten:")
         input3 = float(input())
-        print("Sie haben " + str(input3) + " Euro abgehoben.")
-        balance -= input3
+        if input3 >0:
+            print("Sie haben " + str(input3) + " Euro abgehoben.")
+            balance -= input3
+        else:
+            print("enter valid number")
 
     elif input1 == "3":
         print("Kontostand:", balance)
