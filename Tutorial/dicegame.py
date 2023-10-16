@@ -1,10 +1,9 @@
 import random
 
-casts = 0
 playersum = 0
 computersum = 0
 
-for casts in range(5):
+for x in range(5):
     playernum = random.randrange(1,7)
     computernum = random.randrange(1,7)
     playersum += playernum
